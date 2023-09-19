@@ -1,0 +1,8 @@
+Instruções:
+1 - Baixar o arquivo desafiobootcamp_ana.zip, que é o projeto em c#
+2 - Descompactar o arquivo 
+3 - Abrir arquivo no Visual Studio
+4 - Baixar codigo_bancodedados,nele está presente o sql para gerar o banco utilizado no projeto, OBS: o banco deve ser exatamente igual ao do projeto se não não irá funcionar
+5 - rodar o sql presente no arquivo txt, primeiro crie somente o schema, que é a primeira linha de código, depois pode rodar o restante do código, para criar a tabela juntamente com seus atributos
+6 - após a tabela criada, definir a senha do seu root para 1234, ou alterar a senha do projeto para a sua senha pré-definida no seu banco de dados, acesse a classe conexao do projeto do visual studio e no campo password presente em public void initialize() coloque a sua senha
+7 - após todos esses passos feitos, basta apenas dar run no projeto do visual studio, você consegue fazer isso clicando na setinha verde que fica no menu superior do visual studio
