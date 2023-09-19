@@ -1,0 +1,10 @@
+CREATE SCHEMA `desafio_bootcamp` ;
+CREATE TABLE `desafio_bootcamp`.`produto` (
+  `idproduto` int NOT NULL,
+  `valor` int NOT NULL,
+  `tipo` varchar(45) NOT NULL,
+  `nome` varchar(45) NOT NULL,
+  `datafab` varchar(45) NOT NULL,
+  `quantidade` int NOT NULL,
+  PRIMARY KEY (`idproduto`)
+);
